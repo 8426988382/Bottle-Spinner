@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/floor"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+        android:id="@+id/bottle"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/bottle1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="spinimage"/>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:textColor="#dd0074"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
